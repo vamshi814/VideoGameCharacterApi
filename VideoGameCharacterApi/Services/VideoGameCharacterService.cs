@@ -10,7 +10,7 @@ namespace VideoGameCharacterApi.Services
             new Models.Character { Id = 1, Name = "Mario", Game = "Super Mario Bros.", Role = "Hero" },
             new Models.Character { Id = 2, Name = "Link", Game = "The Legend of Zelda", Role = "Hero" },
             new Models.Character { Id = 3, Name = "Samus Aran", Game = "Metroid", Role = "Hero" },
-            new Models.Character { Id = 4, Name = "Master Chief", Game = "Halo", Role = "Hero" },
+            //new Models.Character { Id = 4, Name = "Master Chief", Game = "Halo", Role = "Hero" },
             //new Models.Character { Id = 5, Name = "Lara Croft", Game = "Tomb Raider", Role = "Hero" }
         };
         public Task<Character> AddCharacterAsync(Character character)
